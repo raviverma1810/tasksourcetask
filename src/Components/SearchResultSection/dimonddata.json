@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "shape": "round",
+    "carat": 2,
+    "colour": "D",
+    "clarity": "VVS2",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 19397
+  },
+  {
+    "id": 2,
+    "shape": "round",
+    "carat": 2.2,
+    "colour": "D",
+    "clarity": "VVS1",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 19999
+  },
+  {
+    "id": 3,
+    "shape": "round",
+    "carat": 3,
+    "colour": "E",
+    "clarity": "FL",
+    "cut": 0.55,
+    "lab": "GIA",
+    "price": 20385
+  },
+  {
+    "id": 4,
+    "shape": "round",
+    "carat": 3.5,
+    "colour": "E",
+    "clarity": "FL",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 20998
+  },
+  {
+    "id": 5,
+    "shape": "Princess",
+    "carat": 3.5,
+    "colour": "G",
+    "clarity": "FL",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 20998
+  },
+  {
+    "id": 6,
+    "shape": "Princess",
+    "carat": 3.5,
+    "colour": "E",
+    "clarity": "FL",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 20998
+  },
+  {
+    "id": 4,
+    "shape": "Cushion",
+    "carat": 3.5,
+    "colour": "E",
+    "clarity": "IF",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 20998
+  },
+  {
+    "id": 4,
+    "shape": "Cushion",
+    "carat": 3.5,
+    "colour": "E",
+    "clarity": "VS1",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 20998
+  },
+  {
+    "id": 4,
+    "shape": "Cushion",
+    "carat": 3.5,
+    "colour": "E",
+    "clarity": "VS2",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 20998
+  },
+  {
+    "id": 4,
+    "shape": "Emerald",
+    "carat": 3.5,
+    "colour": "G",
+    "clarity": "FL",
+    "cut": 0.5,
+    "lab": "GIA",
+    "price": 20998
+  }
+]

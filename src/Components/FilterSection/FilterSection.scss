@@ -1,0 +1,89 @@
+@import "../../variables";
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.section-margin {
+  margin-bottom: 15px;
+}
+
+.data-margin {
+  margin-top: 10px;
+}
+
+.section-flexible-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.toggle-button-shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    display: none;
+  }
+
+  input:checked + .toggle-button {
+    border-color: orange;
+    background-color: rgb(254, 245, 234);
+    box-shadow: 0px 0px 5px rgb(255, 201, 101);
+
+    .title {
+      color: #000;
+    }
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .toggle-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid $color-grey-theme;
+    flex: 1;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 2px;
+    padding: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+
+    .title {
+      margin-top: 5px;
+      font-size: 13px;
+      color: slategray;
+    }
+
+    &:hover {
+      cursor: pointer;
+      border-color: orange;
+      .title {
+        color: black;
+      }
+    }
+  }
+}
+
+.toggle-text {
+  width: 100px;
+  height: 45px;
+  max-height: 45px !important;
+  min-width: 100px !important;
+
+  .toggle-button {
+    .title {
+      margin: 0px;
+    }
+  }
+}

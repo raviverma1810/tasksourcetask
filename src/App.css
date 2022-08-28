@@ -1,0 +1,42 @@
+.app {
+  margin: 15px 0px;
+}
+.theme-button-1 {
+  border: 1px solid #3a8589;
+  outline: none;
+  padding: 5px 15px;
+  background-color: white;
+  color: #3a8589;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  margin: 0px 30px;
+}
+
+.theme-button-1:hover {
+  background-color: #e2eced;
+  color: #000;
+}
+
+.theme-button-2 {
+  border: 1px solid #c7dadb;
+  outline: none;
+  padding: 2px 8px;
+  background-color: white;
+  color: #3a8589;
+  font-size: 13px;
+  font-weight: normal;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.theme-button-2:hover {
+  border-color: #3a8589;
+  background-color: #e2eced;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
